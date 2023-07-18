@@ -8,8 +8,15 @@ code file: [predictiong disease](Predicting.ipynb)
 
 Load the database file into the google drive colaboratory
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 '''
 from google.colab import files
+
 uploaded = files.upload()
 '''
 
